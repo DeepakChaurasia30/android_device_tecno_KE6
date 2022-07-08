@@ -23,3 +23,8 @@ PRODUCT_NAME := omni_TECNO-KE6
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO KE6
 PRODUCT_MANUFACTURER := tecno
+
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.secure=1 \
+    ro.adb.secure=0 \
+    ro.allow.mock.location=0
