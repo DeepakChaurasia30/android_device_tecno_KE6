@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/TECNO-KE6
+DEVICE_PATH := device/tecno/KE6
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -74,7 +74,7 @@ TW_USE_TOOLBOX := true
 SHRP_MAINTAINER := DeepakChaurasia
 SHRP_DEVICE_CODE := KE6
 SHRP_OFFICIAL := true
-SHRP_PATH := device/tecno/TECNO-KE6
+SHRP_PATH := device/tecno/KE6
 # Dark Mode
 SHRP_DARK := true
 SHRP_SKIP_DEFAULT_ADDON_1 := true
@@ -82,4 +82,4 @@ SHRP_SKIP_DEFAULT_ADDON_2 := true
 SHRP_REC := /dev/block/platform/bootdevice/by-name/recovery  
 # LZMA ramdisk compression
 LZMA_RAMDISK_TARGETS := recovery
-LZMA_COMPRESSION := -
+LZMA_COMPRESSION := -9
